@@ -1,0 +1,80 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.hm-wrap
+{
+	margin:auto;
+    position:relative;
+	zoom:1;
+    display: inline-block;
+	*display:inline;
+}
+.hm-wrap img
+{
+    position: absolute;
+    z-index: 1;
+	top:0;
+	left:0;
+	border:none;
+}
+.hm-init
+{
+    position: absolute;
+    z-index: 997;
+	top:0;
+	left:0;
+}
+.hm-hover
+{
+    position: absolute;
+    z-index: 998;
+	top:0;
+	left:0
+}
+.hm-helper
+{
+	position: absolute;
+    z-index: 999;
+	top:0;
+	left:0;
+	background:url(transparent.gif);
+}
+.hm-slice,.hm-box
+{
+	position:absolute;
+	overflow:hidden;
+	display:block;
+}
+.hm-slice img,.hm-box img
+{
+	position:absolute;
+	display:block;
+	filter:inherit;
+}
+.hm-gray
+{
+	filter: gray;
+}
+.hm-blur
+{
+	filter:blur(add=0,direction=0,strength=5);
+}
+.hm-shadow 
+{
+	box-shadow:inset 0px 0px 40px rgba(0,0,0,.6);
+-webkit-box-shadow:inset 0px 0px 40px rgba(0,0,0,.6);
+-moz-box-shadow:inset 0px 0px 40px rgba(0,0,0,.6);
+}
+.hm-tip
+{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	left:0;
+	background:#000;
+	color:#fff;
+	display:none;
+}
+.tip-info
+{
+	padding:.3em .5em;
+}

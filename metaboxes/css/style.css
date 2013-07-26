@@ -1,0 +1,158 @@
+/* =Styles for 'normal' meta boxes
+-------------------------------------------------------------- */
+
+.wp-core-ui .add-clone  {
+	color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #7AB317;
+	background-image: -moz-linear-gradient(top, #7AB317, #70A613);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7AB317), to(#70A613));
+	background-image: -webkit-linear-gradient(top, #7AB317, #70A613);
+	background-image: -o-linear-gradient(top, #7AB317, #70A613);
+	background-image: linear-gradient(to bottom, #7AB317, #70A613);
+	background-repeat: repeat-x;
+	border-width: 1px;
+	border-color: #51A351 #51A351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7ab317', endColorstr='#70a613', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	margin-right:10px;
+	margin-bottom:7px;
+
+}
+.wp-core-ui .add-clone:hover  {
+	color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #7AB317;
+	background-image: -moz-linear-gradient(top, #7AB317, #70A613);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7AB317), to(#70A613));
+	background-image: -webkit-linear-gradient(top, #7AB317, #70A613);
+	background-image: -o-linear-gradient(top, #7AB317, #70A613);
+	background-image: linear-gradient(to bottom, #7AB317, #70A613);
+	background-repeat: repeat-x;
+	border-width: 1px;
+	border-color: #51A351 #51A351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7ab317', endColorstr='#70a613', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+
+}
+.wp-core-ui .remove-clone   {
+	margin-bottom:7px;
+	color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #ba2929;
+	background-image: -moz-linear-gradient(top, #ba2929, #ae1f1f);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ba2929), to(#ae1f1f));
+	background-image: -webkit-linear-gradient(top, #ba2929, #ae1f1f);
+	background-image: -o-linear-gradient(top, #ba2929, #ae1f1f);
+	background-image: linear-gradient(to bottom, #ba2929, #ae1f1f);
+	background-repeat: repeat-x;
+	border-width: 1px;
+	border-color: #ae1f1f #ae1f1f #ae1f1f;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ba2929', endColorstr='#ae1f1f', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+
+}
+.rwmb-field {
+	margin: 10px 0;
+}
+.rwmb-label, 
+.rwmb-input {
+	display: inline-block;
+	vertical-align: top;
+}
+.rwmb-label {
+	width: 24%;
+}
+/* 75% if field has label, 100% if no label */
+.rwmb-input {
+	width: 100%;
+}
+.rwmb-label ~ .rwmb-input {
+	width: 75%;
+}
+.rwmb-input h4 {
+	margin-top: 0;
+}
+.rwmb-textarea {
+	resize: vertical;
+}
+.rwmb-clone {
+	min-height: 24px;
+}
+	.rwmb-clone > input[type="radio"],
+	.rwmb-clone > input[type="checkbox"] {
+		margin: 6px 0 0 4px;
+		
+	}
+	/* fix width to not overlap button for cloned sliders */
+	.rwmb-clone .rwmb-slider {
+		width: 80%;
+		margin: 6px 0 0;
+	}
+	/* fix buttons after sliders */
+	.clearfix + .rwmb-button {
+		margin-top: -16px;
+	}
+.rwmb-button {
+	display: inline;
+	float: right;
+}
+/* Hidden labels, :input fields, buttons */
+.rwmb-label.hidden,
+.rwmb-input.hidden,
+.hidden .rwmb-button {
+	display: none;
+}
+
+/* Fix empty block below admin footer (issue #24) */
+#ui-datepicker-div {
+	display: none;
+}
+
+/* =Styles for 'side' meta boxes
+-------------------------------------------------------------- */
+
+#side-sortables .rwmb-label, 
+#side-sortables .rwmb-input {
+	width: 100%;
+}
+
+
+.hide {
+	display: none;
+}
+.none {
+	border:none;
+}
+.radio_img {
+	border: 1px solid #f6f6f6;
+}
+.ri_select {
+	border: 1px solid #dfdfdf;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	border-color:rgba(214, 95, 8, 1);
+	-webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(214, 95, 8, 0.6);
+	-moz-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(214, 95, 8, 0.6);
+	box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(214, 95, 8, 0.6);
+}
