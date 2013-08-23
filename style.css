@@ -1,5 +1,6 @@
 /*
-hhhh	Theme URI: http://www.thecountrycarpenter
+	Theme Name: Country Carpenter (RESPONSIVE)
+	Theme URI: http://www.thecountrycarpenter
 	Description: Country Carpenter Custom Theme
 	Version: 1.2
 	Author:  CCS
@@ -294,7 +295,7 @@ TABLE OF CONTENTS
 	}
 
 	.main_wrapper .container_24 .grid_22 {
-	  width: 870px;
+	  width: 100%;
 	}
 
 	.main_wrapper .container_24 .grid_23 {
@@ -3032,6 +3033,48 @@ min-height:233px;
 			margin: 0;
 			padding: 0;
 		}
+	/* Custom Css*/
+	.main_wrapper .container_24 .grid_6 {
+	 width:100%;
+	}
+	.main_wrapper .container_24 .grid_12 {
+	width:100%;
+	padding-bottom:50px;
+	}
+	.main_wrapper .container_24 .grid_24 {
+	width:100%;
+	
+	}
+	.main_wrapper .container_24 .grid_6 img {
+	max-width:100%;
+	} 
+	.main_wrapper img{
+	max-width:95%;
+	} 
+	
+	.main_wrapper #home_blurb {
+	font-size:18px;
+	background:none;
+		}
+	#page .container_24 .columns{ /* Blog Post detail Page */
+	width:99%;
+	}
+	#page .container_24 .columns p{  /* Blog Post detail Page */
+	width:100%;
+	}
+	#page .container_24 img{  /* Blog Post detail Page */
+	max:100%;
+	padding-left:0px;
+	}
+	#page .container_24 #post-26 .columns{ /* Contact detail Page */
+	text-align:center;
+	width:100%;
+	margin:0px auto;
+	margin-bottom:20px;
+	}
+		
+	/*End Custom*/
+	
 	
 		.grid_1,
 		.grid_2,
@@ -3088,7 +3131,7 @@ min-height:233px;
 		.container_24 .grid_22,
 		.container_24 .grid_23,
 		.container_24 .grid_24 {
-			width: 100%;
+			width: 96%;
 		}
 
 		.container_24 .prefix_1,
@@ -3168,6 +3211,7 @@ min-height:233px;
 		.main_wrapper li.menu-item-type-custom {
 			padding: 10px 2px;
 			font-size: 0.7em;
+
 		}
 		
 		.main_wrapper #menu-navigation.menu li.menu-item-type-custom {
@@ -3703,7 +3747,34 @@ min-height:233px;
 		.main_wrapper .menu li{
 			padding:28px 5px 15px;
 		}
+		
+		/* Custom Css */
+		.main_wrapper .container_24 .grid_22 {
+		max-width:95%;
+		}
+		.main_wrapper .container_24 .grid_24 #slides{
+		width:100%;
+		}
+		#page .container_24 .columns{ /* Blog Post detail Page */
+		padding-left:5px;
+		width:99%;
+		}
+		#page .container_24 .columns p{  /* Blog Post detail Page */
+		width:100%;
+		}
+		#page .container_24 img{  /* Blog Post detail Page */
+		max-width:100%;
+		padding-left:0px;
+		}
+		#page .container_24 #post-26 { /* Contact detail Page */
+		text-align:center;
+		width:100%;
+		margin:0px auto;
+		margin-bottom:20px;
+		}
+		/* Custom Ends */
 	}
+
 
 	/*--- VI.B iPads (PORTRAIT & LANDSCAPE) [$ipads]---*/
 	@media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -3762,7 +3833,43 @@ min-height:233px;
 			margin-left:auto;
 			margin-right:auto;
 		}
-
+		
+		/* Custom Css */
+		.main_wrapper .container_24 .grid_22 {
+		max-width:95%;
+		}
+		.main_wrapper .container_24 #home_slides{
+		margin-left:30px;
+		}
+		#page .column_3 .blog_post{  /* Blog Page */
+		padding-left:5px;
+		}
+		
+		#page .container_24 .columns{ /* Blog Post detail Page */
+		padding-left:5px;
+		width:99%;
+		}
+		#page .container_24 .columns p{  /* Blog Post detail Page */
+		width:100%;
+		}
+		#page .container_24 img{  /* Blog Post detail Page */
+		max-width:100%;
+		padding-left:0px;
+		}
+		#page .container_24 #post-26 { /* Contact detail Page */
+		
+		max-width:100%;
+		margin:0px auto;
+		padding-left:5px;
+		}
+		
+		
+		@media only screen and (width: 768px) {
+			.main_wrapper .container_24 #home_slides{
+				margin-left:0px;
+			}
+		}
+		/* Custom Ends */
 	}
 
 
