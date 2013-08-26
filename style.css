@@ -1788,6 +1788,7 @@ TABLE OF CONTENTS
 	
 
 
+
 	.main_wrapper #page_header .project_title h2 {
 		font-style: italic;
 		font-weight: normal;
@@ -3028,10 +3029,16 @@ min-height:233px;
 			display: none;
 			height: 0;
 		}
-		
-		.container_24 {
+		.work .container_24 {
 			width: 100%;
 			/*overflow: hidden;*/
+			margin: 0;
+			padding: 0;
+		}
+
+		.home .container_24 #home_slides {
+			width: 100%;
+			overflow: hidden;
 			margin: 0;
 			padding: 0;
 		}
@@ -3359,7 +3366,7 @@ width:100%;
 		
 		.main_wrapper .item_thumb a,
 		.main_wrapper .projects_list_item a {
-			width: 90%;
+			width: 75%;
 			margin-left: 5%;
 			margin-right: 5%;
 		}
